@@ -81,7 +81,7 @@ curl -v golang.org
 
 # Documentación
 
-## [Protocolo de Transferencia de Hipertexto (HTTP)](https://es.wikipedia.org/wiki/Protocolo_de_Transferencia_de_Hipertexto)
+## [Hypertext Transfer Protocol](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol)
 
 El desarrollo de HTTP fue iniciado por Tim Berners-Lee en el CERN en 1989. El desarrollo de los estándares de HTTP fue coordinado por el Grupo de Trabajo de Ingeniería de Internet (IETF) y el Consorcio World Wide Web (W3C), culminando en la publicación de una serie de Solicitudes de Comentarios (RFC).
 
@@ -89,7 +89,7 @@ La primera definición de HTTP/1.1, la versión de HTTP más utilizada, ocurrió
 
 Una versión posterior, el sucesor HTTP/2, fue estandarizada en 2015, y ahora es compatible con los principales servidores web.
 
-## [Solicitud de Comentarios (RFC)](https://es.wikipedia.org/wiki/Solicitud_de_comentarios)
+## [Solicitud de Comentarios (RFC)](https://en.wikipedia.org/wiki/Request_for_Comments)
 
 Una Solicitud de Comentarios (RFC) es un tipo de publicación del Grupo de Trabajo de Ingeniería de Internet (IETF) y la Sociedad de Internet (ISOC), los principales organismos de desarrollo técnico y establecimiento de estándares para Internet.
 
@@ -97,13 +97,13 @@ Un RFC es escrito por ingenieros y científicos informáticos en forma de un mem
 
 Los documentos RFC fueron inventados por Steve Crocker en 1969 para ayudar a registrar notas no oficiales sobre el desarrollo de ARPANET. Desde entonces, los RFCs se han convertido en documentos oficiales de especificaciones de Internet, protocolos de comunicación, procedimientos y eventos.
 
-## [Grupo de Trabajo de Ingeniería de Internet (IETF)](https://es.wikipedia.org/wiki/Grupo_de_Trabajo_de_Ingeniería_de_Internet)
+## [Grupo de Trabajo de Ingeniería de Internet (IETF)](https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force)
 
 El Grupo de Trabajo de Ingeniería de Internet (IETF) desarrolla y promueve estándares voluntarios para Internet, en particular los estándares que componen el conjunto de protocolos de Internet (TCP/IP). Es una organización de estándares abiertos, sin membresía formal ni requisitos de membresía. Todos los participantes y gerentes son voluntarios, aunque su trabajo generalmente es financiado por sus empleadores o patrocinadores.
 
 El IETF comenzó como una actividad respaldada por el gobierno federal de los EE. UU., pero desde 1993 opera como una función de desarrollo de estándares bajo los auspicios de la Sociedad de Internet, una organización internacional sin fines de lucro basada en membresías.
 
-## [Lista de RFCs](https://es.wikipedia.org/wiki/Lista_de_RFCs)
+## [Lista de RFCs](https://en.wikipedia.org/wiki/List_of_RFCs)
 
 ---
 
