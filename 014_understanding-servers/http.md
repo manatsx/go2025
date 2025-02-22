@@ -191,3 +191,42 @@ HTTP fue clave para que la **World Wide Web** se convirtiera en la enorme plataf
 - **Año de creación**: 1989.
 - **Motivación**: Crear un sistema para compartir información entre investigadores a través de una red global.
 - **Desarrollo**: HTTP evolucionó con el tiempo, desde la versión básica **HTTP/0.9** hasta las versiones más avanzadas como **HTTP/2** y **HTTP/3**, mejorando la eficiencia y el rendimiento en la web.
+
+---
+
+## ¿Antes de la creacion de http no existe la web como tal?
+
+**antes de la creación de HTTP**, **la web tal como la conocemos hoy no existía**.
+
+### Cómo era antes de HTTP y la Web
+
+Antes de la creación de **HTTP** (Hypertext Transfer Protocol) y la **World Wide Web (WWW)**, existían varios sistemas para compartir información y acceder a datos, pero ninguno de ellos estaba tan conectado ni tenía la misma **interactividad** que la web moderna.
+
+### 1. **La Internet Pre-Web (La ARPANET y redes de computadoras):**
+
+- Antes de la WWW, existían redes como **ARPANET**, desarrollada en los años 60 y 70, que se utilizaban principalmente para la comunicación entre universidades, instituciones gubernamentales y militares.
+- Estas redes usaban **protocolos de comunicación** (como **FTP**, **Telnet**, **SMTP**) para el intercambio de archivos, correo electrónico y acceso remoto a computadoras, pero no existía un sistema global de páginas interactivas como el que tenemos hoy.
+
+### 2. **La "web" antes de HTTP:**
+
+- Existen ejemplos previos a la web de **sistemas hipermediales** (sistemas que permiten la vinculación entre documentos), pero sin el enfoque global de la WWW. Los más conocidos son sistemas como **HyperCard** de Apple (1987) o **Gopher**, que permitían la organización de información en forma de enlaces, pero no podían ofrecer la conectividad abierta y accesible de la web moderna.
+- **Gopher** era un sistema de distribución de información basado en texto que permitía navegar por archivos, pero no tenía la flexibilidad de enlaces cruzados entre múltiples fuentes de información como lo hace HTTP hoy.
+
+### 3. **El nacimiento de la WWW y HTTP:**
+
+- La verdadera revolución vino con la creación de **la World Wide Web (WWW)** por **Tim Berners-Lee** en **1989**. Berners-Lee trabajaba en el **CERN (Organización Europea para la Investigación Nuclear)** y su objetivo era crear una **infraestructura de comunicación global** que permitiera a los científicos compartir documentos e información a través de una red conectada.
+- Para hacer esto, desarrolló varios componentes clave:
+  1.  **HTTP (Hypertext Transfer Protocol)**: El protocolo para la **transferencia de documentos y datos** entre servidores y clientes.
+  2.  **HTML (Hypertext Markup Language)**: Un lenguaje para **estructurar** los documentos, usando **hipervínculos** para conectar diferentes páginas.
+  3.  **El primer navegador web (WorldWideWeb)**: Fue el primer navegador para acceder y visualizar estos documentos interconectados.
+
+Con la creación de HTTP, la web pasó de ser un sistema cerrado utilizado principalmente por científicos a una **red abierta** de **documentos y servicios** accesibles desde cualquier computadora conectada a Internet.
+
+### 4. **HTTP y la Web Moderna:**
+
+- **HTTP** hace posible que los navegadores y servidores se comuniquen de manera estándar, enviando y recibiendo solicitudes y respuestas entre ellos. Gracias a **HTTP**, la web se convirtió en una plataforma accesible para cualquier persona, no solo científicos o académicos, abriendo la puerta a lo que hoy conocemos como la **web global**.
+- Así, con la evolución de HTTP, la WWW permitió que la información no solo se almacenara de manera centralizada, sino que **se distribuyera globalmente**, con interactividad, comercio, medios de comunicación y mucho más.
+
+### En resumen:
+
+**Antes de HTTP**, no existía la web moderna como la conocemos hoy. Aunque había algunas tecnologías y redes para compartir información (como ARPANET), la **WWW** de Tim Berners-Lee, junto con **HTTP**, fue lo que realmente creó un **sistema global** de páginas interconectadas, lo que permitió la **explosión de la web** tal como la tenemos ahora.
