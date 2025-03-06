@@ -34,9 +34,19 @@ func main() {
 			Code:        "A",
 			Description: "Electrodomestico",
 		},
-		Tags: []string{"heladera", "sarasa", "freezer", "refrigerador"},
+		Price: 100.50,
+		Count: 10,
+		Tags:  []string{"heladera", "sarasa", "freezer", "refrigerador"},
 	}
 	v, err := json.Marshal(p3)
 	fmt.Println(err)
 	fmt.Println(string(v))
+
+	fmt.Println(p3.GetPrice())
+
+	p3.SetName("Heladera marca sarasa 2")
+	fmt.Println(p3.Name)
+
+	p3.AddTags("nuevo", "usado")
+	fmt.Println(p3.Tags)
 }
