@@ -41,5 +41,46 @@ func Calc(op Operation, x, y float64) (float64, error) {
 
 	}
 
-	return 0, errors.New("Has been an error")
+	return 0, errors.New("has been an error")
+}
+
+func Split(v int) (x, y int) {
+	x = v * 4 / 9
+	y = v - x
+	return
+}
+
+func MSum(values ...float64) float64 {
+	var sum float64
+	for _, v := range values {
+		sum += v
+	}
+
+	return sum
+}
+
+func MOperations(op Operation, values ...float64) (float64, error) {
+
+	if len(values) == 0 {
+		return 0, errors.New("there aren't values")
+	}
+
+	sum := values[0]
+	for _, v := range values[1:] {
+
+		switch op {
+		case SUM:
+			sum += v
+		case SUB:
+			sum -= v
+		case DIV:
+			if v == 0 {
+				return 0, errors.New("mustn't be zero values")
+			}
+			sum /= v
+		case MUL:
+			sum *= v
+		}
+	}
+	return sum, nil
 }
