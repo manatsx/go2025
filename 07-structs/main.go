@@ -49,4 +49,33 @@ func main() {
 
 	p3.AddTags("nuevo", "usado")
 	fmt.Println(p3.Tags)
+
+	p4 := structs.Product{
+		Name:  "Naranja",
+		Price: 20,
+		TypeProduct: structs.Type{
+			Code:        "B",
+			Description: "Alimento",
+		},
+		Tags:  []string{"alimento", "verdura"},
+		Count: 20,
+	}
+
+	p5 := structs.Product{
+		Name:  "Cortina",
+		Price: 2700,
+		TypeProduct: structs.Type{
+			Code:        "C",
+			Description: "Hogar",
+		},
+		Tags:  []string{"hogar", "cortina"},
+		Count: 3,
+	}
+
+	car := structs.NewCar(11212)
+	car.AddProducts(p3, p4, p5)
+
+	fmt.Println("PRODUCTS CAR")
+	fmt.Println("Total Products: ", len(car.Products))
+	fmt.Printf("Total Car: $%.2f\n", car.Total())
 }
