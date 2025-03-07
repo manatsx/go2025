@@ -29,8 +29,8 @@ const (
 	SarasaVehicle      = "Sarasa"
 )
 
-func New(v string, time int) (Vehicle, error) {
-	switch v {
+func New(vehicle string, time int) (Vehicle, error) {
+	switch vehicle {
 	case CarVechicle:
 		return &Car{Time: time}, nil
 	case MotorcycleVechicle:
@@ -40,7 +40,7 @@ func New(v string, time int) (Vehicle, error) {
 	case SarasaVehicle:
 		return &Sarasa{Time: time}, nil
 	}
-	return nil, fmt.Errorf("vehicle '%s' not exists", v)
+	return nil, fmt.Errorf("vehicle '%s' not exists", vehicle)
 }
 
 func (c *Car) Distance() float64 {
