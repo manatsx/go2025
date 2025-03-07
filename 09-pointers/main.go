@@ -2,6 +2,21 @@ package main
 
 import "fmt"
 
+type MyStruct struct {
+	ID   int
+	Name string
+}
+
+func (m MyStruct) Set(name string) {
+	fmt.Printf("addrs: %p\n", &m)
+	m.Name = name
+}
+
+func (m *MyStruct) SetP(name string) {
+	fmt.Printf("addrs: %p\n", m)
+	m.Name = name
+}
+
 func main() {
 	var i int = 23
 	fmt.Println(&i) // vemos la direccion de memoria de la variable utilizando &
@@ -31,6 +46,18 @@ func main() {
 	updateSlice(mySlice)
 	fmt.Println(mySlice)
 	fmt.Println()
+
+	myStruct := &MyStruct{ID: 1234, Name: "Test"}
+	fmt.Printf("addrs: %p\n", myStruct)
+	fmt.Printf("id: %d, name: %s\n", myStruct.ID, myStruct.Name)
+	updateStruct(myStruct)
+	fmt.Printf("id: %d, name: %s\n", myStruct.ID, myStruct.Name)
+	fmt.Println()
+	fmt.Printf("addrs: %p\n", myStruct)
+	myStruct.Set("test method")
+	fmt.Printf("id: %d, name: %s\n", myStruct.ID, myStruct.Name)
+	myStruct.SetP("test method 2")
+	fmt.Printf("id: %d, name: %s\n", myStruct.ID, myStruct.Name)
 }
 
 func increment(val int) {
@@ -49,8 +76,8 @@ func updateSlice(v []int) {
 	v[0] = 12
 }
 
-// func updateStruct(v *MyStruct) {
-// 	fmt.Printf("addrs in function: %p\n", v)
-// 	v.ID = 999
-// 	v.Name = "Update Struct"
-// }
+func updateStruct(v *MyStruct) {
+	fmt.Printf("addrs in function: %p\n", v)
+	v.ID = 999
+	v.Name = "Update Struct"
+}
