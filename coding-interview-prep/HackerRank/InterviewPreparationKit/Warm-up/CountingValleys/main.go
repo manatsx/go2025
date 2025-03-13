@@ -48,7 +48,7 @@ func countingValleys(steps int32, path string) int32 {
 // Si debo encontrar el total de valles que atravezo entonces también necesito hacer un conteo del valle que atravezó (voy a necesitar otro contador)
 // Cada paso inicia desde el nivel del mar (0) (voy a necesitar un contador para saber cuando entro o salio del nivel del mar)
 
-// Paso 1. Debo inicializar tres variables (nivel del mar (contador), valle (contador) )
+// Paso 1. Debo inicializar dos variables (nivel del mar (contador), valle (contador) )
 // Paso 3. Debo recorrer cada paso
 // Paso 4: Debo verificar si dio un paso hacia arriba U e indicar dio pasos por encima del nivel del mar
 // Paso 5: Debo verificar si dio un paso hacia abajo D e indicar que dio pasos por debajo del nivel del mar
