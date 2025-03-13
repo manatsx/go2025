@@ -1,5 +1,11 @@
 package main
 
+import "fmt"
+
+func main() {
+	fmt.Println(countingValleys2(12, "DDUUDDUDUUUD"))
+}
+
 /*
  * Complete the 'countingValleys' function below.
  *
@@ -30,6 +36,25 @@ func countingValleys(steps int32, path string) int32 {
 		}
 	}
 
+	return int32(valley)
+}
+
+func countingValleys2(steps int32, path string) int32 {
+	level := 0
+	valley := 0
+
+	for _, step := range path {
+		if step == 'D' {
+			if level == 0 {
+				valley++
+
+			}
+			level -= 1
+
+		} else {
+			level += 1
+		}
+	}
 	return int32(valley)
 }
 
