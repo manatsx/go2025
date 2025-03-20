@@ -7,6 +7,7 @@ import (
 
 func main() {
 
+	// Go routines - procesos de forma paralela
 	go myProcess("A")
 	go myProcess("B")
 
